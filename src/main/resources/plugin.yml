@@ -1,0 +1,15 @@
+name: CustomItemEngine
+version: '${project.version}'
+main: com.customitem.engine.CustomItemEngine
+api-version: '1.20'
+author: CustomItemEngine
+description: Production-ready modular custom item engine for PaperMC 1.20.4.
+commands:
+  engine:
+    description: CustomItemEngine main command.
+    usage: /engine [give <player> <item_id> | reload | recipes]
+    aliases: [cie]
+permissions:
+  customitemengine.admin:
+    description: Allows administration of the engine.
+    default: op

@@ -1,0 +1,9 @@
+# CustomItemEngine recipe definitions
+# Recipes are written automatically by the in-game Recipe Builder GUI.
+# You may also edit them manually; run /engine reload afterwards.
+#
+# Each recipe is keyed by its item id and uses a 3x3 matrix.
+# Ingredients are referenced as "engine:<id>" for custom items, or vanilla
+# material names (e.g. IRON_INGOT). Empty slots are represented by "AIR".
+
+recipes: {}

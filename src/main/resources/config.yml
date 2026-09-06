@@ -1,0 +1,28 @@
+# CustomItemEngine main configuration
+# All string values are quoted for SnakeYAML safety.
+
+settings:
+  locale: "en"
+  auto-generate-files: true
+
+ore-generation:
+  enabled: true
+  # Active generation range
+  min-y: -64
+  max-y: -45
+  # High-density vein zone
+  vein-min-y: -50
+  vein-max-y: -55
+  # Chance per chunk (lower = rarer). Default slightly rarer than diamond.
+  vein-chance: 8
+  # Vein size range
+  vein-min-size: 3
+  vein-max-size: 5
+  # Attempts per chunk
+  attempts-per-chunk: 6
+
+gui:
+  title: "CustomItemEngine"
+  category-rows: 3
+
+debug: false
